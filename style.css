@@ -48,12 +48,15 @@ a:hover {
     color: var(--clr-gold)
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* Navigation */
 
 header {
     background: var(--clr-darkgray);
     padding: 1em 0;
-    text-align: center;
 }
 
 .nav {
