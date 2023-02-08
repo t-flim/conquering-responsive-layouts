@@ -1,3 +1,11 @@
+:root {
+    --clr-darkgray: #2E323F;
+    --clr-midgray: #3B4050;
+    --clr-lightgray: #6F737F;
+    --clr-white: #FFFFFF;
+    --clr-gold: #A59678;
+}
+
 *,
 *::before,
 *::after {
@@ -5,3 +13,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: min(80%, 1200px);
+    margin: 0 auto;
+}
+
+.clr-gold {
+    color: var(--clr-gold)
+}
+
+
+
+
+
+@media (min-width: 700px) {}
+
+@media (min-width: 1000px) {}
