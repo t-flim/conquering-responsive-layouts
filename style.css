@@ -201,7 +201,7 @@ header {
 }
 
 .card--title {
-    font-size: clamp(1.5rem, 10vw, 1.875rem);
+    font-size: clamp(1.5rem, 5vw, 1.875rem);
     margin-bottom: 0.3em;
 }
 
@@ -219,8 +219,8 @@ header {
 }
 
 .section--title {
-    font-size: 36px;
-    margin-bottom: 0.75em;
+    font-size: clamp(25px, 5vw, 36px);
+    margin-bottom: 0.5em;
 }
 
 .sidebar {
@@ -312,7 +312,7 @@ header {
     }
 
     .hero > .row {
-        gap: 5em;
+        gap: 3em;
     }
 
     .hero--content {
