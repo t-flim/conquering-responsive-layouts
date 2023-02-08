@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap');
+
 :root {
     --clr-darkgray: #2E323F;
     --clr-midgray: #3B4050;
     --clr-lightgray: #6F737F;
     --clr-white: #FFFFFF;
     --clr-gold: #A59678;
+
+    --font-title: "Oswald", sans-serif;
+    --font-body: "Montserrat", sans-serif;
 }
 
 *,
