@@ -190,8 +190,10 @@ header {
 /* Features Section */
 
 .features {
-    padding: 3em 2em;
+    padding: 3em 0;
     margin: 0 auto;
+    background: #F0EEED;
+    font-size: 21px;
 }
 
 .card {
@@ -205,6 +207,30 @@ header {
 
 .card--content {
     font-size: 18px;
+}
+
+
+/* Main */
+
+.main {
+    padding: 3em 0;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.section--title {
+    font-size: 36px;
+    margin-bottom: 0.75em;
+}
+
+.sidebar {
+    margin: 2em 0;
+}
+
+.sidebar > .card {
+    color: var(--clr-white);
+    background: var(--clr-midgray);
+    padding: 1.5em 2.5em 3em;
 }
 
 
