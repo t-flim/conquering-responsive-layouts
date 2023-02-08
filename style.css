@@ -234,6 +234,38 @@ header {
 }
 
 
+/* Footer */
+
+.footer {
+    background: var(--clr-midgray);
+    color: var(--clr-white);
+    padding: 3em 0;
+}
+
+.footer--title {
+    font-size: 30px;
+    margin-bottom: 0.75em;
+}
+
+.footer--content {
+    font-size: 16px;
+}
+
+.company-info--title,
+.column__list--title {
+    font-size: 21px;
+    margin-bottom: 0.3em;
+}
+
+.column__list {
+    margin-top: 1.3em;
+}
+
+.column__list--item {
+    margin: 0.75em 0;
+}
+
+
 @media (min-width: 700px) {
     .nav-toggle {
         display: none;
