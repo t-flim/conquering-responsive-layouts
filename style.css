@@ -58,6 +58,68 @@ header {
 
 .nav {
     width: 100%;
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    font-size: 1rem;
+}
+
+.nav--visible {
+    visibility: visible;
+    height: auto;
+    position: relative;
+}
+
+.nav-toggle {
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    color: var(--clr-darkgray);
+    background: var(--clr-white);
+    transition: visibility 0.5s ease;
+
+    position: absolute;
+    right: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: 0.75;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+    background: black;
+    transition: 0.5s ease;
+}
+
+.bar1 {
+    transform: translateY(-3px);
+}
+
+.bar3 {
+    transform: translateY(3px
+    );
+}
+
+.transform > .bar1 {
+    transform: translateY(3px) rotate(-45deg);
+}
+
+.transform > .bar2 {
+    opacity: 0;
+}
+
+.transform > .bar3 {
+    transform: translateY(-3px) rotate(45deg);
 }
 
 .nav__list {
@@ -84,46 +146,6 @@ header {
 .logo {
     height: 30px;
 }
-
-.nav-toggle {
-    border: 0;
-    width: 3em;
-    height: 3em;
-    padding: 0em;
-    border-radius: 50%;
-    color: var(--clr-darkgray);
-    background: var(--clr-white);
-
-    position: absolute;
-    right: 0;
-}
-
-.nav-toggle:focus,
-.nav-toggle:hover {
-    opacity: 0.75;
-}
-
-.bar1,
-.bar2,
-.bar3 {
-    position: relative;
-    display: block;
-    width: 50%;
-    height: 3px;
-    margin: 0 auto;
-    background: black;
-}
-
-.bar1 {
-    transform: translateY(-3px);
-}
-
-.bar3 {
-    transform: translateY(3px
-    );
-}
-
-
 
 
 
