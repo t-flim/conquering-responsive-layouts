@@ -201,7 +201,7 @@ header {
 }
 
 .card--title {
-    font-size: 30px;
+    font-size: clamp(1.5rem, 10vw, 1.875rem);
     margin-bottom: 0.3em;
 }
 
@@ -233,12 +233,16 @@ header {
     padding: 1.5em 2.5em 3em;
 }
 
+.main--img {
+    margin: 0.75em 0;
+}
+
 
 /* Footer */
 
 .footer {
     background: var(--clr-midgray);
-    color: var(--clr-white);
+    color: #E8E2E2;
     padding: 3em 0;
 }
 
@@ -314,6 +318,63 @@ header {
     .hero--content {
         margin-top: 10em;
     }
+
+
+    /* Features Section */
+
+    .features > .row {
+        gap: 1em;
+    }
+
+
+    /* Main */
+
+    .main > .row {
+        display: block;
+    }
+
+    .sidebar {
+        display: flex;
+        gap: 0.5em;
+    }
+
+    .sidebar > .card {
+        padding: 1.5em 0.5em 3em;
+    }
+
+
+    /* Footer */
+
+    .footer .row {
+        gap: 3em;
+        justify-content: space-between;
+    }
+
+    .company-info {
+        flex: 1;
+    }
+
+    .column__nav {
+        display: flex;
+        gap: 3em;
+        flex: 1;
+    }
 }
 
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+    .main > .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3em;
+    }
+
+    .primary-content {
+        align-self: first baseline;
+        margin-top: 0.75em;
+    }
+
+    .sidebar {
+        display: block;
+    }
+}
