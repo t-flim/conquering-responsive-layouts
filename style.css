@@ -220,6 +220,21 @@ header {
         align-items: center;
         justify-content: space-between;
     }
+
+
+    /* Hero Section */
+
+    .hero {
+        padding: 4em 0 7em;
+    }
+
+    .hero > .row {
+        gap: 5em;
+    }
+
+    .hero--content {
+        margin-top: 10em;
+    }
 }
 
 @media (min-width: 1000px) {}
