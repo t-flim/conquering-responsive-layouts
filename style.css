@@ -187,6 +187,27 @@ header {
 }
 
 
+/* Features Section */
+
+.features {
+    padding: 3em 2em;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 2em;
+}
+
+.card--title {
+    font-size: 30px;
+    margin-bottom: 0.3em;
+}
+
+.card--content {
+    font-size: 18px;
+}
+
+
 @media (min-width: 700px) {
     .nav-toggle {
         display: none;
