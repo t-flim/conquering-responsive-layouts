@@ -22,13 +22,15 @@
 body {
     margin: 0;
     font-family: var(--font-body);
+    font-weight: 400;
 }
 
 img {
     max-width: 100%;
 }
 
-a {
+a,
+.btn {
     text-decoration: none;
     color: var(--clr-white);
 }
@@ -44,6 +46,11 @@ a:hover {
     position: relative;
 }
 
+.title {
+    font-family: var(--font-title);
+    font-weight: 900;
+}
+
 .clr-gold {
     color: var(--clr-gold)
 }
@@ -51,6 +58,7 @@ a:hover {
 .text-center {
     text-align: center;
 }
+
 
 /* Navigation */
 
@@ -150,6 +158,33 @@ header {
     height: 30px;
 }
 
+
+/* Hero Section */
+
+.hero {
+    background: var(--clr-midgray);
+    color: var(--clr-white);
+    padding: 2em 0;
+}
+
+.hero--title {
+    font-size: clamp(4rem, 10vw, 5.625rem);
+    line-height: 1;
+    margin-bottom: 0.75em;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: var(--clr-gold);
+    padding: 0.75rem 2rem;
+    border-radius: 100px;
+    margin-top: 0.75em;
+}
+
+.content-font-size {
+    font-size: 24px;
+}
 
 
 @media (min-width: 700px) {
